@@ -1,0 +1,8 @@
+STEP A:
+The repository was cloned from GitHub using the git clone command.
+Basic repository information was verified using git status and git branch.
+The active branch was switched to a new branch named "part2" for further work.
+STEP B:
+The commit history of the repository was examined using the git log command.
+The current working branch was checked using git branch, confirming that work is being done on the "part2" branch.
+
