@@ -17,10 +17,9 @@ public class Main {
         }
 
     for (int i = first; i <= second; i++) {
-    if (i % 2 == 0) {
-        System.out.println(i);
-    }
+    System.out.println(i);
 }
+
 
  
 
