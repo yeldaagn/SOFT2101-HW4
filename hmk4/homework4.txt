@@ -63,3 +63,58 @@ target/
 Commit Evidence:
 4586a46 setting up gitignore
 
+STEP F:
+Feature branch feature-1 was created to satisfy the first requirement.
+Command:
+git checkout -b feature-1
+
+Java program (Main.java) was implemented to print all numbers between two inputs.
+Commit:
+7eff453 satisfying requirement one
+
+Program output (example input 3 and 7):
+3
+4
+5
+6
+7
+
+
+STEP J:
+Feature branch feature-2 was created to modify the program to print only odd numbers.
+Command:
+git checkout -b feature-2
+
+Program output (example input 3 and 7):
+3
+5
+7
+
+Commit:
+e492998 satisfying requirement change two
+
+STEP K:
+Feature branch feature-3 was created to modify the program to print only even numbers.
+Command:
+git checkout -b feature-3
+
+Program output (example input 3 and 7):
+4
+6
+
+Commit:
+966a0ae satisfying requirement change three
+
+STEP M:
+All feature branches were merged into the main branch.
+The final version of the program was updated to print all numbers between the given inputs.
+Final output (example input 3 and 7):
+3
+4
+5
+6
+7
+
+Final Commit:
+70ed110 final version prints all numbers
+
