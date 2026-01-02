@@ -1,8 +1,65 @@
 STEP A:
-The repository was cloned from GitHub using the git clone command.
-Basic repository information was verified using git status and git branch.
-The active branch was switched to a new branch named "part2" for further work.
+Command:
+git config --global --list
+
+Output:
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=Yelda Gün
+user.email=yeldaagn@gmail.com
+
 STEP B:
-The commit history of the repository was examined using the git log command.
-The current working branch was checked using git branch, confirming that work is being done on the "part2" branch.
+Command:
+ls
+
+Output:
+hmk4
+README.md
+SOFT2101_HW4_Part1.pdf
+
+Command:
+ls -la .git
+
+Output:
+config
+HEAD
+hooks
+info
+logs
+objects
+refs
+packed-refs
+index
+description
+
+STEP C:
+A clickable Markdown link was added to the README file to reference the Işık University Software Engineering Department.
+
+Markdown Link:
+[Department of Software Engineering - Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+Commit Evidence:
+The change was committed to the repository as shown below.
+
+Commit:
+afda1de Update README with department link
+
+STEP D:
+Command:
+cat .gitignore
+
+Output:
+*.class
+*.log
+.DS_Store
+.idea/
+.vscode/
+bin/
+out/
+target/
+
+Commit Evidence:
+4586a46 setting up gitignore
 
